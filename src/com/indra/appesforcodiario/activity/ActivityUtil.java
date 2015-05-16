@@ -15,7 +15,6 @@ public class ActivityUtil extends BaseActivity {
 	
 	@Override
 	protected void inicializarComponentes() {
-		// TODO Auto-generated method stub
 		
 	}
 	
