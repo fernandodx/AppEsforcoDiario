@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Esforço Diário Projeto MAPA</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="phone_service">PHONE_SERVICE</string>
+    <string name="cronometro_handler_inicio">cronometro_handler_inicio</string>
+    <string name="cronometro_handler_final">cronometro_handler_final</string>
+    <string name="atualizar_ordem_servico">ATUALIZAR_LISTA_ORDEM_SERVICO</string>
+
+</resources>

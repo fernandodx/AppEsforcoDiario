@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/corFundoApp"
+    android:orientation="vertical" 
+    android:layout_margin="5dp">
+
+       <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/txNrOrdemServicoInflater"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:background="@color/corDestaqueLista"
+            android:text="Nr"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/corLetraButton"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/txNmOrdemServicoInflater"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:background="@color/corDestaqueLista"
+            android:gravity="left"
+            android:text="Nome"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/corLetraButton"
+            android:typeface="serif" />
+
+    </LinearLayout>
+    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/txDtinicioInflater"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.06"
+            android:text="Inicio"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/corDestaqueInicio"
+            android:typeface="serif" 
+            android:layout_marginBottom="1dp"/>
+
+        <TextView
+            android:id="@+id/txDtFimInflater"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.06"
+            android:text="fim"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/corDestaqueFim"
+            android:typeface="serif" 
+            android:layout_marginBottom="1dp"/>
+
+        <TextView
+            android:id="@+id/txTempoGastoResultadoInflater"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.03"
+            android:text="Tempo"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/corLetraButton"
+            android:typeface="serif" 
+            android:layout_marginBottom="1dp"/>
+
+    </LinearLayout>
+
+ 
+
+</LinearLayout>

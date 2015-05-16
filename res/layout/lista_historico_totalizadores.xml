@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/corFundoApp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txDtTotalEsforco"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/corDestaqueLista"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/corLetraButton"
+        android:typeface="serif" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/txTotalNrProjeto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:text="TextView"
+            android:textColor="@color/corLetraButton"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/txNmProjeto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:text="TextView"
+            android:textColor="@color/corLetraButton"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/txTotalTempo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="@color/corLetraButton"
+            android:typeface="serif"
+            android:layout_weight="0.33" />
+
+    </LinearLayout>
+
+</LinearLayout>
